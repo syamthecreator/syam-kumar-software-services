@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <linearGradient id="og-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070D1E" />
+      <stop offset="50%" stop-color="#0B152F" />
+      <stop offset="100%" stop-color="#030712" />
+    </linearGradient>
+    <linearGradient id="og-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#2563EB" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="og-text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#93C5FD" />
+    </linearGradient>
+    <linearGradient id="og-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#3B82F6" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#og-bg)" />
+  
+  <!-- Subtle Grid lines -->
+  <g opacity="0.08" stroke="#38BDF8" stroke-width="1">
+    <line x1="0" y1="105" x2="1200" y2="105"/>
+    <line x1="0" y1="210" x2="1200" y2="210"/>
+    <line x1="0" y1="315" x2="1200" y2="315"/>
+    <line x1="0" y1="420" x2="1200" y2="420"/>
+    <line x1="0" y1="525" x2="1200" y2="525"/>
+    <line x1="150" y1="0" x2="150" y2="630"/>
+    <line x1="300" y1="0" x2="300" y2="630"/>
+    <line x1="450" y1="0" x2="450" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/>
+    <line x1="750" y1="0" x2="750" y2="630"/>
+    <line x1="900" y1="0" x2="900" y2="630"/>
+    <line x1="1050" y1="0" x2="1050" y2="630"/>
+  </g>
+
+  <!-- Glowing orbs -->
+  <circle cx="1000" cy="150" r="300" fill="url(#og-glow)" filter="blur(60px)"/>
+  <circle cx="200" cy="500" r="250" fill="url(#og-glow)" filter="blur(80px)"/>
+
+  <!-- Brand Mark (Large) -->
+  <g transform="translate(100, 90)">
+    <rect width="84" height="84" rx="20" fill="#0F1E3D" stroke="#38BDF8" stroke-width="2" stroke-opacity="0.6"/>
+    <path d="M33 24C27 24 22 28.5 22 33.5C22 39 27 41.5 33 43C39 44.5 44 47.5 44 52.5C44 57.5 39 62 33 62C26 62 21 58 19.5 52.5" 
+          stroke="url(#og-accent)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M50 23V61" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+    <path d="M65 26L51 42L66 61" stroke="url(#og-accent)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="66.5" cy="23" r="3" fill="#38BDF8"/>
+  </g>
+
+  <!-- Enterprise Tag Pill -->
+  <g transform="translate(210, 110)">
+    <rect width="450" height="42" rx="21" fill="rgba(37, 99, 235, 0.15)" stroke="#3B82F6" stroke-width="1.5" stroke-opacity="0.4"/>
+    <circle cx="24" cy="21" r="5" fill="#10B981"/>
+    <text x="40" y="26" fill="#93C5FD" font-family="system-ui, sans-serif" font-size="14" font-weight="700" letter-spacing="1">UDYAM-REGISTERED MICRO ENTERPRISE</text>
+  </g>
+
+  <!-- Main Headline -->
+  <text x="100" y="260" fill="url(#og-text-grad)" font-family="system-ui, -apple-system, sans-serif" font-size="54" font-weight="800" letter-spacing="-0.5">Syam Kumar Software Services</text>
+
+  <!-- Subheadline -->
+  <text x="100" y="325" fill="#38BDF8" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="600">Building Digital Solutions for Modern Businesses</text>
+
+  <!-- Description -->
+  <text x="100" y="390" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="400">
+    Flutter Mobile Apps • Full-Stack Web Applications • Custom Software &amp; APIs
+  </text>
+  <text x="100" y="426" fill="#64748B" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="400">
+    Thiruvananthapuram, Kerala, India • Reg. UDYAM-KL-12-0129196
+  </text>
+
+  <!-- Bottom Badges / Tech Highlights -->
+  <g transform="translate(100, 480)">
+    <!-- Badge 1 -->
+    <rect x="0" y="0" width="160" height="46" rx="10" fill="#0E1A36" stroke="#334155" stroke-width="1"/>
+    <text x="80" y="28" fill="#E2E8F0" font-family="system-ui, sans-serif" font-size="16" font-weight="600" text-anchor="middle">Flutter &amp; Dart</text>
+    
+    <!-- Badge 2 -->
+    <rect x="180" y="0" width="180" height="46" rx="10" fill="#0E1A36" stroke="#334155" stroke-width="1"/>
+    <text x="270" y="28" fill="#E2E8F0" font-family="system-ui, sans-serif" font-size="16" font-weight="600" text-anchor="middle">TypeScript &amp; Node</text>
+
+    <!-- Badge 3 -->
+    <rect x="380" y="0" width="180" height="46" rx="10" fill="#0E1A36" stroke="#334155" stroke-width="1"/>
+    <text x="470" y="28" fill="#E2E8F0" font-family="system-ui, sans-serif" font-size="16" font-weight="600" text-anchor="middle">PostgreSQL &amp; APIs</text>
+
+    <!-- Badge 4 -->
+    <rect x="580" y="0" width="190" height="46" rx="10" fill="#0E1A36" stroke="#334155" stroke-width="1"/>
+    <text x="675" y="28" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="16" font-weight="600" text-anchor="middle">NIC Code: 62011</text>
+  </g>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 64" fill="none">
+  <defs>
+    <linearGradient id="logo-bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+    <linearGradient id="logo-electric" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="60%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#2563EB" />
+    </linearGradient>
+  </defs>
+
+  <!-- Icon Mark Container -->
+  <g transform="translate(4, 4)">
+    <rect width="56" height="56" rx="12" fill="url(#logo-bg-grad)"/>
+    <rect x="0.75" y="0.75" width="54.5" height="54.5" rx="11.25" stroke="url(#logo-electric)" stroke-width="1.5" stroke-opacity="0.5"/>
+    
+    <!-- Stylized SK monogram -->
+    <path d="M22 16C18 16 14.5 19 14.5 22.5C14.5 26 18 27.5 22 28.5C26 29.5 29.5 31.5 29.5 35C29.5 38.5 26 41.5 22 41.5C17.5 41.5 14 39 13 35" 
+          stroke="url(#logo-electric)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M33 15V41" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+    <path d="M43 17L33.5 28L43.5 41" stroke="url(#logo-electric)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="44" cy="15" r="2" fill="#38BDF8"/>
+  </g>
+
+  <!-- Typography -->
+  <text x="76" y="29" fill="#FFFFFF" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="800" letter-spacing="0.5">SYAM KUMAR</text>
+  <text x="76" y="47" fill="#38BDF8" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="700" letter-spacing="3.5">SOFTWARE SERVICES</text>
+</svg>
